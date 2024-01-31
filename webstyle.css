@@ -1,6 +1,8 @@
 
 		body {
-			background: black;
+			background-image: url('bg.gif');
+			background-size: 150%;
+
 		}
 		
 		.header {
@@ -17,6 +19,7 @@
 			align-content: center;
 			font-weight: bold;
 			padding: 25px 0px;
+			font-size:40px;
 		}
 
 		* {
@@ -37,8 +40,9 @@
 			width: 200px;
 			height: 400px;
 			margin: 10px;
-			border-radius: 15px;
 			font-family: arial;
+			border-radius:9px;
+
 		}
 
 		
@@ -48,6 +52,30 @@
 			margin-bottom: 15px;
 			background-size:cover ;
 
+
+		}
+
+		.box button {
+			text-align: center;
+			height: 18px;
+			width: 200px;
+			background-color: orange;
+			border-radius: 15px;
+			border-color: black;
+			font-family: arial;
+
+
+
+		}
+
+
+		button:hover {
+			color: blue;
+		}
+
+
+		container.hover {
+			background-color: black;
 		}
 
 		.car1 {
